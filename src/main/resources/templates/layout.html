@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="layout.css" />
+</head>
+
+<body>
+<nav th:fragment="nav" class="navigation">
+    <ul>
+        <li>
+            <a href="/price">Услуги и цены</a>
+        </li>
+        <li>
+            <a href="/about">Обо мне</a>
+        </li>
+        <li>
+            <a href="/contact">Контакты</a>
+        </li>
+    </ul>
+</nav>
+<div th:fragment="footer" >
+    <div class="info">
+        <div class="footer_container">
+            <div class="contact">
+                Контакты
+                <p>Часы работы: 9:00 - 21:00</p>
+                <p>Телефон: <a href="tel: +79377325938">+7 (937) 732-59-38</a></p>
+                <p>Адрес: г. Москва, Чертановская ул. 9, стр. 3</p>
+            </div>
+            <!-- LOGOTIP -->
+
+        </div>
+    </div>
+
+    <div class="legal">
+        &copy; 2023 Something. All rights reserved.
+    </div>
+</div>
+
+
+</body>
+</html>

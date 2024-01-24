@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Услуги и цены</title>
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="price.css" />
+
+</head>
+<body class="body">
+<div class="wrapper">
+    <div class="layout">
+        <nav th:insert="~{layout::nav}"/>
+    </div>
+
+    <div class="block">
+
+    </div>
+
+    <hr class="hr">
+    <nav class="nav">
+        <ul >
+            <li>
+                <a href="price?ID=1">Терапия</a>
+            </li>
+            <li>
+                <a href="price?ID=2">Чистка</a>
+            </li>
+            <li>
+                <a href="price?ID=3">Коронки</a>
+            </li>
+            <li>
+                <a href="price?ID=4">Виниры</a>
+            </li>
+            <li>
+                <a href="price?ID=7">Протезы</a>
+            </li>
+            <li>
+                <a href="price?ID=6">Удаление</a>
+            </li>
+            <li>
+                <a href="price?ID=5">Дополнительные услуги</a>
+            </li>
+        </ul>
+    </nav>
+    <hr class="hr">
+
+    <div class="container">
+        <table id="table">
+            <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+            </tr>
+            <tr th:each="price : ${price}" class="create-line">
+                <td th:text="${price.Name}"></td>
+                <td th:text="${price.Price}"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div >
+        <div th:insert="~{layout::footer}"/>
+    </div>
+</div>
+</body>
+</html>

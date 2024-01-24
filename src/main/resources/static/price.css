@@ -1,0 +1,149 @@
+*{
+ font-family: 'SansSerif', RonniaCondensed, serif;
+ margin: 0;
+ padding: 0;
+}
+
+.body{
+ background-color: #fff;
+ height: 100%;
+}
+
+.wrapper{
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
+}
+
+.layout{
+ margin-bottom: 15px;
+}
+
+.hr {
+ border: none; /* Убираем границу */
+ background-color: #272727; /* Цвет линии */
+ color: #272727; /* Цвет линии для IE6-7 */
+ height: 2px; /* Толщина линии */
+ width: 65%;
+ display: flex;
+ align-items: center;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.block {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ background-image: url("Poster1.png");
+ height: 310px;
+ margin-bottom: 15px;
+}
+
+.block h1{
+ text-align: center;
+ margin-top: 5px;
+ margin-left: 10px;
+ font-size: 26pt;
+ background-color: transparent;
+ color: #272727;
+}
+
+
+.block p{
+ background: transparent;
+ font-size: 22pt;
+ color: #272727;
+}
+
+.nav ul {
+ background: transparent;
+ margin-top: 25px;
+ margin-bottom: 25px;
+ list-style: none;
+ text-align: center;
+ display: inline;
+}
+
+.nav ul li {
+ background: transparent;
+ display: inline;
+ padding: 10px;
+}
+
+.nav ul li a {
+ font-size: 16pt;
+ text-decoration: none;
+ border: none;
+ background-color: transparent;
+ cursor: pointer;
+ transition: text-decoration 0.3s, color 0.3s;
+ color: #272727;
+
+}
+
+.nav ul li a:hover {
+ color : #03396c;
+ text-decoration: underline;
+}
+
+.nav ul li a:active {
+ text-decoration: underline;
+ color: #272727;
+}
+
+.container {
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ max-width: 100%;
+ flex: 1 0 auto;
+}
+
+nav {
+ display: flex;
+ justify-content: center;
+}
+
+label {
+ padding : 15px;
+ color: #272727;
+}
+
+table {
+ width: 65%;
+ border-collapse: collapse;
+ margin-top: 20px;
+ margin-bottom: 15px;
+}
+
+th, td {
+ padding: 5px;
+ text-align: left;
+ color: #272727;
+ font-size: 22px;
+}
+
+.create-line {
+ width: 100%;
+ border-top : 1.5px solid #272727;
+}
+
+th {
+ padding: 10px;
+ background-color: #fff;
+}
+
+td {
+ padding: 10px;
+ background-color: #fff;
+}
+
+tr:nth-child(even) {
+ background-color: #fff;
+}
+
+tr:hover {
+ background-color: #fff;
+}
+

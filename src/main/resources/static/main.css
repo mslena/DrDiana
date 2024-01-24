@@ -1,0 +1,36 @@
+*{
+    font-family: 'SansSerif', RonniaCondensed, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.tool {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 900px;
+    background: #bababa;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.tool p {
+    background: transparent;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 18pt;
+}
+
+.picture {
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url("Medit.jpg");
+    width: 600px;
+    height: 450px;
+    border-radius: 15px;
+}

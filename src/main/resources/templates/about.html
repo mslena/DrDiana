@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="about.css" />
+</head>
+<body>
+<div class="layout">
+    <nav th:insert="~{layout::nav}"/>
+</div>
+<div class="container">
+    <div class="bio">
+        <h2>Обо мне:</h2>
+        <p>    Я квалифицированный врач-стоматолог универсал.</p>
+        <p>     Занимаюсь лечением каналов зубов, а так же перечиванием. Спасаю зубки которые другие врачи приговорили к удалению.</p>
+        <p>     Эстетические реставрации, установка виниров, коронок - это мой конёк.</p>
+        <p>     Удаляю зубы мудрости любой сложности.</p>
+        <p>    Лечение с использованием современных технологий - микроскоп и интраоральный сканер!</p>
+    </div>
+    <div class="profile">
+        <img src="Profile.jpg" alt="Фотография доктора">
+    </div>
+</div>
+<h1>Сертификаты:</h1>
+<div class="certificates">
+    <img class="certificate" src="certificate_0.jpg" alt="Сертификат 1">
+    <img class="certificate1" src="certificate_2.jpg" alt="Сертификат 2">
+    <img class="certificate2" src="certificate_1.jpg" alt="Сертификат 3">
+</div>
+<div >
+    <div th:insert="~{layout::footer}"/>
+</div>
+</body>
+</html>

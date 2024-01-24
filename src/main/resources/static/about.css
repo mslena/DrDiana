@@ -1,0 +1,63 @@
+*{
+    font-family: 'SansSerif', RonniaCondensed, serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    flex: 1;
+    text-align: center;
+}
+
+.profile img {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.bio {
+    flex: 2;
+}
+
+.bio h2{
+   font-size: 30pt
+}
+
+.bio p{
+    text-indent: 30px;
+    font-size: 20pt;
+}
+
+
+.certificates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.certificate {
+    display: block;
+    max-width: 400px;
+    margin: 10px;
+}
+.certificate2 {
+    display: block;
+    max-width: 370px;
+    margin: 10px;
+}
+
+.certificate1 {
+    display: block;
+    max-width: 800px;
+    margin: 10px;
+}
